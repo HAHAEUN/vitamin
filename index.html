@@ -23,10 +23,34 @@
     p {
       color: #888;
     }
+    .cat {
+      width: 160px;
+      height: 160px;
+      margin-bottom: 1rem;
+    }
   </style>
 </head>
 <body>
   <main>
+    <svg class="cat" viewBox="0 0 100 100" role="img" aria-label="고양이 그림">
+      <!-- 귀 -->
+      <polygon points="22,40 26,15 45,32" fill="#f2a154" />
+      <polygon points="78,40 74,15 55,32" fill="#f2a154" />
+      <polygon points="29,38 31,24 41,34" fill="#f7c59f" />
+      <polygon points="71,38 69,24 59,34" fill="#f7c59f" />
+      <!-- 얼굴 -->
+      <circle cx="50" cy="58" r="30" fill="#f2a154" />
+      <!-- 눈 -->
+      <circle cx="38" cy="54" r="4" fill="#333" />
+      <circle cx="62" cy="54" r="4" fill="#333" />
+      <!-- 코 -->
+      <path d="M47 64 h6 l-3 3 z" fill="#e07a5f" />
+      <!-- 입 -->
+      <path d="M50 67 q-4 5 -8 2 M50 67 q4 5 8 2" fill="none" stroke="#333" stroke-width="1.4" stroke-linecap="round" />
+      <!-- 수염 -->
+      <path d="M20 60 h-12 M20 66 h-13 M80 60 h12 M80 66 h13"
+            stroke="#333" stroke-width="1.2" stroke-linecap="round" />
+    </svg>
     <h1>나만 고양이가 없다.</h1>
     <p>오늘도 텅 빈 무릎을 바라본다.</p>
   </main>
